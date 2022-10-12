@@ -39,6 +39,7 @@ function letsPlay(ans) {
 
   if (userName === ans) {
     console.log("correct")
+    score = score + 1;
   }
   else {
     console.log("wrong")
@@ -62,6 +63,7 @@ function letsPlay(ans) {
 
   if (userName === ans) {
     console.log("correct")
+    score+=1;
   }
   else {
     console.log("wrong")
